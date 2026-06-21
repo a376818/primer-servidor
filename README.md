@@ -51,13 +51,13 @@ CTRL + C
 
 ## Implementación
 
-Para crear la imagen de Docker, ejecutar en la carpeta server:
+Para crear la imagen de Docker, ejecutar:
 
 ### `docker build -t primer-servidor --build-arg APP_TYPE=server .`
 
 Para ejecutar:
 
-### `docker run -p 4000:4000 primer-servidor`
+### `docker run -it -p 4000:4000 primer-servidor`
 
 Para correr el programa en Docker con interactividad.
 
