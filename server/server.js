@@ -4,7 +4,7 @@ const readline = require("readline-sync");
 const server = new http.Server();
 
 const options = {
-  hostname: process.env.SERVER_HOST || "127.0.0.1",
+  hostname: process.env.SERVER_HOST || "0.0.0.0",
   port: 4000,
   method: "GET",
 };
