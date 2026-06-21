@@ -51,7 +51,15 @@ CTRL + C
 
 ## Implementación
 
-Add additional notes about how to deploy this on a live system
+Para crear la imagen de Docker, ejecutar en la carpeta server:
+
+### `docker build -t primer-servidor --build-arg APP_TYPE=server .`
+
+Para ejecutar:
+
+### `docker run -p 4000:4000 primer-servidor`
+
+Para correr el programa en Docker con interactividad.
 
 ## Construido con
 
